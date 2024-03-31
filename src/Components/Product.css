@@ -1,0 +1,63 @@
+.product {
+    width: 200px;
+    height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+}
+.product .img-corner{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+}
+.product .img-corner:hover {
+    background-color: rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+.product .img {
+    width: 100%;
+    height: 210px;
+}
+.product .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.details {
+    padding: 5px;
+}
+.details h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.details p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #888;
+}
+.details button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: rgb(159, 161, 160);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.details button:hover {
+    background-color: rgb(3, 52, 52);
+}
+.btnRemove {
+    background-color: rgb(135, 12, 12) !important;
+}
+.btnRemove:hover{
+    background-color: rgb(67, 2, 2) !important;
+}
